@@ -75,6 +75,5 @@ class Graphics(Enum):
     ''' Class representing graphics configuration '''
     LINE_COLOR: Tuple[int] = Colors.BLACK.value
     LINE_THICKNESS: int = int(config.get('GRAPHICS', 'LINE_THICKNESS'))
-    LINE_TEXT: str = config.get('GRAPHICS', 'LINE_TEXT')
 
     TITLE: str = config.get('GRAPHICS', 'TITLE')
