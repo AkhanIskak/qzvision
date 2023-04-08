@@ -61,3 +61,8 @@ class Colors(Enum):
     BLACK: Tuple[int] = (0, 0, 0)
     GREEN: Tuple[int] = (0, 255, 0)
     WHITE: Tuple[int] = (255, 255, 255)
+
+
+class Graphics(Enum):
+    LINE_COLOR = Colors.BLACK.value
+    LINE_THICKNESS = int(config.get('GRAPHICS', 'LINE_THICKNESS'))
