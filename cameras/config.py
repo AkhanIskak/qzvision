@@ -17,3 +17,9 @@ class Server(Enum):
     HOST: str = config.get('SERVER', 'HOST')
     PORT: int = int(config.get('SERVER', 'PORT'))
     DEBUG: bool = config.get('SERVER', 'DEBUG') == 'True'
+
+
+class Logs(Enum):
+    ''' Class representing logs configuration '''
+    FILENAME: str = config.get('LOGS', 'FILENAME')
+    LEVEL: int = int(config.get('LOGS', 'LEVEL'))
