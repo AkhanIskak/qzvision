@@ -10,9 +10,8 @@
         <b-collapse id="nav-collapse" is-nav>
           <b-navbar-nav class="ml-auto">
             <b-nav-item active to="/">Домой</b-nav-item>
-            <b-nav-item href="#">Наши решения</b-nav-item>
-            <b-nav-item href="#">Вопросы</b-nav-item>
-            <b-nav-item href="#">О нас</b-nav-item>
+            <b-nav-item href="#solutions">Наши решения</b-nav-item>
+            <b-nav-item href="#about">О нас</b-nav-item>
 <!--            <div class="mx-lg-5 d-lg-flex flex-lg-row">-->
 <!--              <b-nav-item href="/">Login</b-nav-item>-->
 <!--              <b-button class="rounded-lg text-white" variant="primary" href="#"-->

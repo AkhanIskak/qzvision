@@ -5,8 +5,8 @@
         <b-row>
           <b-col cols="12" lg="6" md="6" sm="12">
             <h1>
-              QazVision <br />
-              делаем город <br />
+              QazVision <br/>
+              делаем город <br/>
               Умным
             </h1>
             <svg
@@ -26,10 +26,11 @@
             </svg>
 
             <p class="hero-description">
-              Наша цель сделать города умными. С помощью компьютерного зрения , мы разрабатываем решения делающие город более удобным и оптимизированным для жителей
+              Наша цель сделать города умными. С помощью компьютерного зрения , мы разрабатываем решения делающие город
+              более удобным и оптимизированным для жителей
             </p>
           </b-col>
-          <br class="d-none d-sm-block" />
+          <br class="d-none d-sm-block"/>
           <b-col cols="12" lg="6" md="6" sm="12">
             <b-img
               alt="hero image"
@@ -41,320 +42,321 @@
       </b-container>
     </section>
     <section class="bg-green-light py-5">
-<!--      <b-container>-->
-<!--        <b-row>-->
-<!--          <b-col cols="12" lg="6" md="6" sm="12">-->
-<!--            <h2>How we support our partner all over the world</h2>-->
-<!--            <div class="my-5">-->
-<!--              <p class="text-muted">-->
-<!--                SaaS become a common delivery model for many business-->
-<!--                application, including office software, messaging software,-->
-<!--                payroll processing software, DBMS software, management software-->
-<!--              </p>-->
-<!--            </div>-->
-<!--            <div class="d-flex flex-row">-->
-<!--              <div class="d-flex flex-column">-->
-<!--                <svg-->
-<!--                  width="142"-->
-<!--                  height="26"-->
-<!--                  viewBox="0 0 142 26"-->
-<!--                  fill="none"-->
-<!--                  xmlns="http://www.w3.org/2000/svg"-->
-<!--                >-->
-<!--                  <path-->
-<!--                    d="M13 0L15.9187 8.98278H25.3637L17.7225 14.5344L20.6412 23.5172L13 17.9656L5.35879 23.5172L8.27747 14.5344L0.636266 8.98278H10.0813L13 0Z"-->
-<!--                    fill="#FFC728"-->
-<!--                  />-->
-<!--                  <path-->
-<!--                    d="M42 0L44.9187 8.98278H54.3637L46.7225 14.5344L49.6412 23.5172L42 17.9656L34.3588 23.5172L37.2775 14.5344L29.6363 8.98278H39.0813L42 0Z"-->
-<!--                    fill="#FFC728"-->
-<!--                  />-->
-<!--                  <path-->
-<!--                    d="M71 0L73.9187 8.98278H83.3637L75.7225 14.5344L78.6412 23.5172L71 17.9656L63.3588 23.5172L66.2775 14.5344L58.6363 8.98278H68.0813L71 0Z"-->
-<!--                    fill="#FFC728"-->
-<!--                  />-->
-<!--                  <path-->
-<!--                    d="M100 0L102.919 8.98278H112.364L104.723 14.5344L107.641 23.5172L100 17.9656L92.3588 23.5172L95.2775 14.5344L87.6363 8.98278H97.0813L100 0Z"-->
-<!--                    fill="#FFC728"-->
-<!--                  />-->
-<!--                  <path-->
-<!--                    d="M129 0L131.919 8.98278H141.364L133.723 14.5344L136.641 23.5172L129 17.9656L121.359 23.5172L124.277 14.5344L116.636 8.98278H126.081L129 0Z"-->
-<!--                    fill="#FFC728"-->
-<!--                  />-->
-<!--                </svg>-->
+      <!--      <b-container>-->
+      <!--        <b-row>-->
+      <!--          <b-col cols="12" lg="6" md="6" sm="12">-->
+      <!--            <h2>How we support our partner all over the world</h2>-->
+      <!--            <div class="my-5">-->
+      <!--              <p class="text-muted">-->
+      <!--                SaaS become a common delivery model for many business-->
+      <!--                application, including office software, messaging software,-->
+      <!--                payroll processing software, DBMS software, management software-->
+      <!--              </p>-->
+      <!--            </div>-->
+      <!--            <div class="d-flex flex-row">-->
+      <!--              <div class="d-flex flex-column">-->
+      <!--                <svg-->
+      <!--                  width="142"-->
+      <!--                  height="26"-->
+      <!--                  viewBox="0 0 142 26"-->
+      <!--                  fill="none"-->
+      <!--                  xmlns="http://www.w3.org/2000/svg"-->
+      <!--                >-->
+      <!--                  <path-->
+      <!--                    d="M13 0L15.9187 8.98278H25.3637L17.7225 14.5344L20.6412 23.5172L13 17.9656L5.35879 23.5172L8.27747 14.5344L0.636266 8.98278H10.0813L13 0Z"-->
+      <!--                    fill="#FFC728"-->
+      <!--                  />-->
+      <!--                  <path-->
+      <!--                    d="M42 0L44.9187 8.98278H54.3637L46.7225 14.5344L49.6412 23.5172L42 17.9656L34.3588 23.5172L37.2775 14.5344L29.6363 8.98278H39.0813L42 0Z"-->
+      <!--                    fill="#FFC728"-->
+      <!--                  />-->
+      <!--                  <path-->
+      <!--                    d="M71 0L73.9187 8.98278H83.3637L75.7225 14.5344L78.6412 23.5172L71 17.9656L63.3588 23.5172L66.2775 14.5344L58.6363 8.98278H68.0813L71 0Z"-->
+      <!--                    fill="#FFC728"-->
+      <!--                  />-->
+      <!--                  <path-->
+      <!--                    d="M100 0L102.919 8.98278H112.364L104.723 14.5344L107.641 23.5172L100 17.9656L92.3588 23.5172L95.2775 14.5344L87.6363 8.98278H97.0813L100 0Z"-->
+      <!--                    fill="#FFC728"-->
+      <!--                  />-->
+      <!--                  <path-->
+      <!--                    d="M129 0L131.919 8.98278H141.364L133.723 14.5344L136.641 23.5172L129 17.9656L121.359 23.5172L124.277 14.5344L116.636 8.98278H126.081L129 0Z"-->
+      <!--                    fill="#FFC728"-->
+      <!--                  />-->
+      <!--                </svg>-->
 
-<!--                <h5>4.9 / 5 Rating</h5>-->
-<!--                <h5 class="text-muted">Databricks</h5>-->
-<!--              </div>-->
-<!--              <div class="d-flex flex-column ml-5">-->
-<!--                <svg-->
-<!--                  width="142"-->
-<!--                  height="26"-->
-<!--                  viewBox="0 0 142 26"-->
-<!--                  fill="none"-->
-<!--                  xmlns="http://www.w3.org/2000/svg"-->
-<!--                >-->
-<!--                  <path-->
-<!--                    d="M13 0L15.9187 8.98278H25.3637L17.7225 14.5344L20.6412 23.5172L13 17.9656L5.35879 23.5172L8.27747 14.5344L0.636266 8.98278H10.0813L13 0Z"-->
-<!--                    fill="#FFC728"-->
-<!--                  />-->
-<!--                  <path-->
-<!--                    d="M42 0L44.9187 8.98278H54.3637L46.7225 14.5344L49.6412 23.5172L42 17.9656L34.3588 23.5172L37.2775 14.5344L29.6363 8.98278H39.0813L42 0Z"-->
-<!--                    fill="#FFC728"-->
-<!--                  />-->
-<!--                  <path-->
-<!--                    d="M71 0L73.9187 8.98278H83.3637L75.7225 14.5344L78.6412 23.5172L71 17.9656L63.3588 23.5172L66.2775 14.5344L58.6363 8.98278H68.0813L71 0Z"-->
-<!--                    fill="#FFC728"-->
-<!--                  />-->
-<!--                  <path-->
-<!--                    d="M100 0L102.919 8.98278H112.364L104.723 14.5344L107.641 23.5172L100 17.9656L92.3588 23.5172L95.2775 14.5344L87.6363 8.98278H97.0813L100 0Z"-->
-<!--                    fill="#FFC728"-->
-<!--                  />-->
-<!--                  <path-->
-<!--                    d="M129 0L131.919 8.98278H141.364L133.723 14.5344L136.641 23.5172L129 17.9656L121.359 23.5172L124.277 14.5344L116.636 8.98278H126.081L129 0Z"-->
-<!--                    fill="#BBBBBB"-->
-<!--                  />-->
-<!--                </svg>-->
+      <!--                <h5>4.9 / 5 Rating</h5>-->
+      <!--                <h5 class="text-muted">Databricks</h5>-->
+      <!--              </div>-->
+      <!--              <div class="d-flex flex-column ml-5">-->
+      <!--                <svg-->
+      <!--                  width="142"-->
+      <!--                  height="26"-->
+      <!--                  viewBox="0 0 142 26"-->
+      <!--                  fill="none"-->
+      <!--                  xmlns="http://www.w3.org/2000/svg"-->
+      <!--                >-->
+      <!--                  <path-->
+      <!--                    d="M13 0L15.9187 8.98278H25.3637L17.7225 14.5344L20.6412 23.5172L13 17.9656L5.35879 23.5172L8.27747 14.5344L0.636266 8.98278H10.0813L13 0Z"-->
+      <!--                    fill="#FFC728"-->
+      <!--                  />-->
+      <!--                  <path-->
+      <!--                    d="M42 0L44.9187 8.98278H54.3637L46.7225 14.5344L49.6412 23.5172L42 17.9656L34.3588 23.5172L37.2775 14.5344L29.6363 8.98278H39.0813L42 0Z"-->
+      <!--                    fill="#FFC728"-->
+      <!--                  />-->
+      <!--                  <path-->
+      <!--                    d="M71 0L73.9187 8.98278H83.3637L75.7225 14.5344L78.6412 23.5172L71 17.9656L63.3588 23.5172L66.2775 14.5344L58.6363 8.98278H68.0813L71 0Z"-->
+      <!--                    fill="#FFC728"-->
+      <!--                  />-->
+      <!--                  <path-->
+      <!--                    d="M100 0L102.919 8.98278H112.364L104.723 14.5344L107.641 23.5172L100 17.9656L92.3588 23.5172L95.2775 14.5344L87.6363 8.98278H97.0813L100 0Z"-->
+      <!--                    fill="#FFC728"-->
+      <!--                  />-->
+      <!--                  <path-->
+      <!--                    d="M129 0L131.919 8.98278H141.364L133.723 14.5344L136.641 23.5172L129 17.9656L121.359 23.5172L124.277 14.5344L116.636 8.98278H126.081L129 0Z"-->
+      <!--                    fill="#BBBBBB"-->
+      <!--                  />-->
+      <!--                </svg>-->
 
-<!--                <h5>4.8 / 5 Rating</h5>-->
-<!--                <h5 class="text-muted">Chainalysis</h5>-->
-<!--              </div>-->
-<!--            </div>-->
-<!--          </b-col>-->
-<!--          <b-col cols="12" lg="6" md="6" sm="12" class="mt-sm-5">-->
-<!--            <div class="d-flex flex-column">-->
-<!--              <div class="d-flex flex-row">-->
-<!--                <div class="d-fle align-items-start">-->
-<!--                  <svg-->
-<!--                    width="78"-->
-<!--                    height="78"-->
-<!--                    viewBox="0 0 78 78"-->
-<!--                    fill="none"-->
-<!--                    xmlns="http://www.w3.org/2000/svg"-->
-<!--                  >-->
-<!--                    <g filter="url(#filter0_d_0_1)">-->
-<!--                      <rect x="9" y="5" width="60" height="60" fill="white" />-->
-<!--                    </g>-->
-<!--                    <g clip-path="url(#clip0_0_1)">-->
-<!--                      <path-->
-<!--                        d="M51.5 35H46.5L42.75 46.25L35.25 23.75L31.5 35H26.5"-->
-<!--                        stroke="#54BD95"-->
-<!--                        stroke-width="2"-->
-<!--                        stroke-linecap="round"-->
-<!--                        stroke-linejoin="round"-->
-<!--                      />-->
-<!--                    </g>-->
-<!--                    <defs>-->
-<!--                      <filter-->
-<!--                        id="filter0_d_0_1"-->
-<!--                        x="0"-->
-<!--                        y="0"-->
-<!--                        width="78"-->
-<!--                        height="78"-->
-<!--                        filterUnits="userSpaceOnUse"-->
-<!--                        color-interpolation-filters="sRGB"-->
-<!--                      >-->
-<!--                        <feFlood-->
-<!--                          flood-opacity="0"-->
-<!--                          result="BackgroundImageFix"-->
-<!--                        />-->
-<!--                        <feColorMatrix-->
-<!--                          in="SourceAlpha"-->
-<!--                          type="matrix"-->
-<!--                          values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"-->
-<!--                          result="hardAlpha"-->
-<!--                        />-->
-<!--                        <feOffset dy="4" />-->
-<!--                        <feGaussianBlur stdDeviation="4.5" />-->
-<!--                        <feComposite in2="hardAlpha" operator="out" />-->
-<!--                        <feColorMatrix-->
-<!--                          type="matrix"-->
-<!--                          values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.05 0"-->
-<!--                        />-->
-<!--                        <feBlend-->
-<!--                          mode="normal"-->
-<!--                          in2="BackgroundImageFix"-->
-<!--                          result="effect1_dropShadow_0_1"-->
-<!--                        />-->
-<!--                        <feBlend-->
-<!--                          mode="normal"-->
-<!--                          in="SourceGraphic"-->
-<!--                          in2="effect1_dropShadow_0_1"-->
-<!--                          result="shape"-->
-<!--                        />-->
-<!--                      </filter>-->
-<!--                      <clipPath id="clip0_0_1">-->
-<!--                        <rect-->
-<!--                          width="30"-->
-<!--                          height="30"-->
-<!--                          fill="white"-->
-<!--                          transform="translate(24 20)"-->
-<!--                        />-->
-<!--                      </clipPath>-->
-<!--                    </defs>-->
-<!--                  </svg>-->
-<!--                </div>-->
-<!--                <div>-->
-<!--                  <h5>Publishing</h5>-->
-<!--                  <p class="text-muted">-->
-<!--                    Plan, collaborate, and publishing your contetn that drivees-->
-<!--                    meaningful engagement and growth for your barnd-->
-<!--                  </p>-->
-<!--                </div>-->
-<!--              </div>-->
-<!--              <div class="d-flex flex-row my-lg-5">-->
-<!--                <div class="d-fle align-items-start">-->
-<!--                  <svg-->
-<!--                    width="78"-->
-<!--                    height="78"-->
-<!--                    viewBox="0 0 78 78"-->
-<!--                    fill="none"-->
-<!--                    xmlns="http://www.w3.org/2000/svg"-->
-<!--                  >-->
-<!--                    <g filter="url(#filter0_d_0_1)">-->
-<!--                      <rect x="9" y="5" width="60" height="60" fill="white" />-->
-<!--                    </g>-->
-<!--                    <path-->
-<!--                      d="M50.512 39.8626C49.7168 41.7432 48.473 43.4004 46.8894 44.6892C45.3057 45.9781 43.4305 46.8594 41.4276 47.2561C39.4247 47.6528 37.3551 47.5528 35.3997 46.9648C33.4444 46.3769 31.6628 45.3189 30.2108 43.8834C28.7588 42.4479 27.6805 40.6785 27.0703 38.73C26.4601 36.7815 26.3365 34.7132 26.7103 32.7059C27.0841 30.6986 27.9439 28.8134 29.2146 27.2151C30.4853 25.6169 32.1281 24.3542 33.9995 23.5376"-->
-<!--                      stroke="#54BD95"-->
-<!--                      stroke-width="2"-->
-<!--                      stroke-linecap="round"-->
-<!--                      stroke-linejoin="round"-->
-<!--                    />-->
-<!--                    <path-->
-<!--                      d="M51.5 35C51.5 33.3585 51.1767 31.733 50.5485 30.2165C49.9203 28.6999 48.9996 27.3219 47.8388 26.1612C46.6781 25.0004 45.3001 24.0797 43.7835 23.4515C42.267 22.8233 40.6415 22.5 39 22.5V35H51.5Z"-->
-<!--                      stroke="#54BD95"-->
-<!--                      stroke-width="2"-->
-<!--                      stroke-linecap="round"-->
-<!--                      stroke-linejoin="round"-->
-<!--                    />-->
-<!--                    <defs>-->
-<!--                      <filter-->
-<!--                        id="filter0_d_0_1"-->
-<!--                        x="0"-->
-<!--                        y="0"-->
-<!--                        width="78"-->
-<!--                        height="78"-->
-<!--                        filterUnits="userSpaceOnUse"-->
-<!--                        color-interpolation-filters="sRGB"-->
-<!--                      >-->
-<!--                        <feFlood-->
-<!--                          flood-opacity="0"-->
-<!--                          result="BackgroundImageFix"-->
-<!--                        />-->
-<!--                        <feColorMatrix-->
-<!--                          in="SourceAlpha"-->
-<!--                          type="matrix"-->
-<!--                          values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"-->
-<!--                          result="hardAlpha"-->
-<!--                        />-->
-<!--                        <feOffset dy="4" />-->
-<!--                        <feGaussianBlur stdDeviation="4.5" />-->
-<!--                        <feComposite in2="hardAlpha" operator="out" />-->
-<!--                        <feColorMatrix-->
-<!--                          type="matrix"-->
-<!--                          values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.05 0"-->
-<!--                        />-->
-<!--                        <feBlend-->
-<!--                          mode="normal"-->
-<!--                          in2="BackgroundImageFix"-->
-<!--                          result="effect1_dropShadow_0_1"-->
-<!--                        />-->
-<!--                        <feBlend-->
-<!--                          mode="normal"-->
-<!--                          in="SourceGraphic"-->
-<!--                          in2="effect1_dropShadow_0_1"-->
-<!--                          result="shape"-->
-<!--                        />-->
-<!--                      </filter>-->
-<!--                    </defs>-->
-<!--                  </svg>-->
-<!--                </div>-->
-<!--                <div>-->
-<!--                  <h5>Analytics</h5>-->
-<!--                  <p class="text-muted">-->
-<!--                    Analyze your performance and create goegeous report-->
-<!--                  </p>-->
-<!--                </div>-->
-<!--              </div>-->
-<!--              <div class="d-flex flex-row">-->
-<!--                <div class="d-fle align-items-start">-->
-<!--                  <svg-->
-<!--                    width="78"-->
-<!--                    height="78"-->
-<!--                    viewBox="0 0 78 78"-->
-<!--                    fill="none"-->
-<!--                    xmlns="http://www.w3.org/2000/svg"-->
-<!--                  >-->
-<!--                    <g filter="url(#filter0_d_0_1)">-->
-<!--                      <rect x="9" y="5" width="60" height="60" fill="white" />-->
-<!--                    </g>-->
-<!--                    <path-->
-<!--                      d="M46.5 23.75C45.5054 23.75 44.5516 24.1451 43.8483 24.8483C43.1451 25.5516 42.75 26.5054 42.75 27.5V42.5C42.75 43.4946 43.1451 44.4484 43.8483 45.1517C44.5516 45.8549 45.5054 46.25 46.5 46.25C47.4946 46.25 48.4484 45.8549 49.1517 45.1517C49.8549 44.4484 50.25 43.4946 50.25 42.5C50.25 41.5054 49.8549 40.5516 49.1517 39.8483C48.4484 39.1451 47.4946 38.75 46.5 38.75H31.5C30.5054 38.75 29.5516 39.1451 28.8483 39.8483C28.1451 40.5516 27.75 41.5054 27.75 42.5C27.75 43.4946 28.1451 44.4484 28.8483 45.1517C29.5516 45.8549 30.5054 46.25 31.5 46.25C32.4946 46.25 33.4484 45.8549 34.1517 45.1517C34.8549 44.4484 35.25 43.4946 35.25 42.5V27.5C35.25 26.5054 34.8549 25.5516 34.1517 24.8483C33.4484 24.1451 32.4946 23.75 31.5 23.75C30.5054 23.75 29.5516 24.1451 28.8483 24.8483C28.1451 25.5516 27.75 26.5054 27.75 27.5C27.75 28.4946 28.1451 29.4484 28.8483 30.1517C29.5516 30.8549 30.5054 31.25 31.5 31.25H46.5C47.4946 31.25 48.4484 30.8549 49.1517 30.1517C49.8549 29.4484 50.25 28.4946 50.25 27.5C50.25 26.5054 49.8549 25.5516 49.1517 24.8483C48.4484 24.1451 47.4946 23.75 46.5 23.75Z"-->
-<!--                      stroke="#54BD95"-->
-<!--                      stroke-width="2"-->
-<!--                      stroke-linecap="round"-->
-<!--                      stroke-linejoin="round"-->
-<!--                    />-->
-<!--                    <defs>-->
-<!--                      <filter-->
-<!--                        id="filter0_d_0_1"-->
-<!--                        x="0"-->
-<!--                        y="0"-->
-<!--                        width="78"-->
-<!--                        height="78"-->
-<!--                        filterUnits="userSpaceOnUse"-->
-<!--                        color-interpolation-filters="sRGB"-->
-<!--                      >-->
-<!--                        <feFlood-->
-<!--                          flood-opacity="0"-->
-<!--                          result="BackgroundImageFix"-->
-<!--                        />-->
-<!--                        <feColorMatrix-->
-<!--                          in="SourceAlpha"-->
-<!--                          type="matrix"-->
-<!--                          values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"-->
-<!--                          result="hardAlpha"-->
-<!--                        />-->
-<!--                        <feOffset dy="4" />-->
-<!--                        <feGaussianBlur stdDeviation="4.5" />-->
-<!--                        <feComposite in2="hardAlpha" operator="out" />-->
-<!--                        <feColorMatrix-->
-<!--                          type="matrix"-->
-<!--                          values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.05 0"-->
-<!--                        />-->
-<!--                        <feBlend-->
-<!--                          mode="normal"-->
-<!--                          in2="BackgroundImageFix"-->
-<!--                          result="effect1_dropShadow_0_1"-->
-<!--                        />-->
-<!--                        <feBlend-->
-<!--                          mode="normal"-->
-<!--                          in="SourceGraphic"-->
-<!--                          in2="effect1_dropShadow_0_1"-->
-<!--                          result="shape"-->
-<!--                        />-->
-<!--                      </filter>-->
-<!--                    </defs>-->
-<!--                  </svg>-->
-<!--                </div>-->
-<!--                <div>-->
-<!--                  <h5>Engagement</h5>-->
-<!--                  <p class="text-muted">-->
-<!--                    Quiuckly navigate you anda engage with your adience-->
-<!--                  </p>-->
-<!--                </div>-->
-<!--              </div>-->
-<!--            </div>-->
-<!--          </b-col>-->
-<!--        </b-row>-->
-<!--      </b-container>-->
+      <!--                <h5>4.8 / 5 Rating</h5>-->
+      <!--                <h5 class="text-muted">Chainalysis</h5>-->
+      <!--              </div>-->
+      <!--            </div>-->
+      <!--          </b-col>-->
+      <!--          <b-col cols="12" lg="6" md="6" sm="12" class="mt-sm-5">-->
+      <!--            <div class="d-flex flex-column">-->
+      <!--              <div class="d-flex flex-row">-->
+      <!--                <div class="d-fle align-items-start">-->
+      <!--                  <svg-->
+      <!--                    width="78"-->
+      <!--                    height="78"-->
+      <!--                    viewBox="0 0 78 78"-->
+      <!--                    fill="none"-->
+      <!--                    xmlns="http://www.w3.org/2000/svg"-->
+      <!--                  >-->
+      <!--                    <g filter="url(#filter0_d_0_1)">-->
+      <!--                      <rect x="9" y="5" width="60" height="60" fill="white" />-->
+      <!--                    </g>-->
+      <!--                    <g clip-path="url(#clip0_0_1)">-->
+      <!--                      <path-->
+      <!--                        d="M51.5 35H46.5L42.75 46.25L35.25 23.75L31.5 35H26.5"-->
+      <!--                        stroke="#54BD95"-->
+      <!--                        stroke-width="2"-->
+      <!--                        stroke-linecap="round"-->
+      <!--                        stroke-linejoin="round"-->
+      <!--                      />-->
+      <!--                    </g>-->
+      <!--                    <defs>-->
+      <!--                      <filter-->
+      <!--                        id="filter0_d_0_1"-->
+      <!--                        x="0"-->
+      <!--                        y="0"-->
+      <!--                        width="78"-->
+      <!--                        height="78"-->
+      <!--                        filterUnits="userSpaceOnUse"-->
+      <!--                        color-interpolation-filters="sRGB"-->
+      <!--                      >-->
+      <!--                        <feFlood-->
+      <!--                          flood-opacity="0"-->
+      <!--                          result="BackgroundImageFix"-->
+      <!--                        />-->
+      <!--                        <feColorMatrix-->
+      <!--                          in="SourceAlpha"-->
+      <!--                          type="matrix"-->
+      <!--                          values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"-->
+      <!--                          result="hardAlpha"-->
+      <!--                        />-->
+      <!--                        <feOffset dy="4" />-->
+      <!--                        <feGaussianBlur stdDeviation="4.5" />-->
+      <!--                        <feComposite in2="hardAlpha" operator="out" />-->
+      <!--                        <feColorMatrix-->
+      <!--                          type="matrix"-->
+      <!--                          values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.05 0"-->
+      <!--                        />-->
+      <!--                        <feBlend-->
+      <!--                          mode="normal"-->
+      <!--                          in2="BackgroundImageFix"-->
+      <!--                          result="effect1_dropShadow_0_1"-->
+      <!--                        />-->
+      <!--                        <feBlend-->
+      <!--                          mode="normal"-->
+      <!--                          in="SourceGraphic"-->
+      <!--                          in2="effect1_dropShadow_0_1"-->
+      <!--                          result="shape"-->
+      <!--                        />-->
+      <!--                      </filter>-->
+      <!--                      <clipPath id="clip0_0_1">-->
+      <!--                        <rect-->
+      <!--                          width="30"-->
+      <!--                          height="30"-->
+      <!--                          fill="white"-->
+      <!--                          transform="translate(24 20)"-->
+      <!--                        />-->
+      <!--                      </clipPath>-->
+      <!--                    </defs>-->
+      <!--                  </svg>-->
+      <!--                </div>-->
+      <!--                <div>-->
+      <!--                  <h5>Publishing</h5>-->
+      <!--                  <p class="text-muted">-->
+      <!--                    Plan, collaborate, and publishing your contetn that drivees-->
+      <!--                    meaningful engagement and growth for your barnd-->
+      <!--                  </p>-->
+      <!--                </div>-->
+      <!--              </div>-->
+      <!--              <div class="d-flex flex-row my-lg-5">-->
+      <!--                <div class="d-fle align-items-start">-->
+      <!--                  <svg-->
+      <!--                    width="78"-->
+      <!--                    height="78"-->
+      <!--                    viewBox="0 0 78 78"-->
+      <!--                    fill="none"-->
+      <!--                    xmlns="http://www.w3.org/2000/svg"-->
+      <!--                  >-->
+      <!--                    <g filter="url(#filter0_d_0_1)">-->
+      <!--                      <rect x="9" y="5" width="60" height="60" fill="white" />-->
+      <!--                    </g>-->
+      <!--                    <path-->
+      <!--                      d="M50.512 39.8626C49.7168 41.7432 48.473 43.4004 46.8894 44.6892C45.3057 45.9781 43.4305 46.8594 41.4276 47.2561C39.4247 47.6528 37.3551 47.5528 35.3997 46.9648C33.4444 46.3769 31.6628 45.3189 30.2108 43.8834C28.7588 42.4479 27.6805 40.6785 27.0703 38.73C26.4601 36.7815 26.3365 34.7132 26.7103 32.7059C27.0841 30.6986 27.9439 28.8134 29.2146 27.2151C30.4853 25.6169 32.1281 24.3542 33.9995 23.5376"-->
+      <!--                      stroke="#54BD95"-->
+      <!--                      stroke-width="2"-->
+      <!--                      stroke-linecap="round"-->
+      <!--                      stroke-linejoin="round"-->
+      <!--                    />-->
+      <!--                    <path-->
+      <!--                      d="M51.5 35C51.5 33.3585 51.1767 31.733 50.5485 30.2165C49.9203 28.6999 48.9996 27.3219 47.8388 26.1612C46.6781 25.0004 45.3001 24.0797 43.7835 23.4515C42.267 22.8233 40.6415 22.5 39 22.5V35H51.5Z"-->
+      <!--                      stroke="#54BD95"-->
+      <!--                      stroke-width="2"-->
+      <!--                      stroke-linecap="round"-->
+      <!--                      stroke-linejoin="round"-->
+      <!--                    />-->
+      <!--                    <defs>-->
+      <!--                      <filter-->
+      <!--                        id="filter0_d_0_1"-->
+      <!--                        x="0"-->
+      <!--                        y="0"-->
+      <!--                        width="78"-->
+      <!--                        height="78"-->
+      <!--                        filterUnits="userSpaceOnUse"-->
+      <!--                        color-interpolation-filters="sRGB"-->
+      <!--                      >-->
+      <!--                        <feFlood-->
+      <!--                          flood-opacity="0"-->
+      <!--                          result="BackgroundImageFix"-->
+      <!--                        />-->
+      <!--                        <feColorMatrix-->
+      <!--                          in="SourceAlpha"-->
+      <!--                          type="matrix"-->
+      <!--                          values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"-->
+      <!--                          result="hardAlpha"-->
+      <!--                        />-->
+      <!--                        <feOffset dy="4" />-->
+      <!--                        <feGaussianBlur stdDeviation="4.5" />-->
+      <!--                        <feComposite in2="hardAlpha" operator="out" />-->
+      <!--                        <feColorMatrix-->
+      <!--                          type="matrix"-->
+      <!--                          values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.05 0"-->
+      <!--                        />-->
+      <!--                        <feBlend-->
+      <!--                          mode="normal"-->
+      <!--                          in2="BackgroundImageFix"-->
+      <!--                          result="effect1_dropShadow_0_1"-->
+      <!--                        />-->
+      <!--                        <feBlend-->
+      <!--                          mode="normal"-->
+      <!--                          in="SourceGraphic"-->
+      <!--                          in2="effect1_dropShadow_0_1"-->
+      <!--                          result="shape"-->
+      <!--                        />-->
+      <!--                      </filter>-->
+      <!--                    </defs>-->
+      <!--                  </svg>-->
+      <!--                </div>-->
+      <!--                <div>-->
+      <!--                  <h5>Analytics</h5>-->
+      <!--                  <p class="text-muted">-->
+      <!--                    Analyze your performance and create goegeous report-->
+      <!--                  </p>-->
+      <!--                </div>-->
+      <!--              </div>-->
+      <!--              <div class="d-flex flex-row">-->
+      <!--                <div class="d-fle align-items-start">-->
+      <!--                  <svg-->
+      <!--                    width="78"-->
+      <!--                    height="78"-->
+      <!--                    viewBox="0 0 78 78"-->
+      <!--                    fill="none"-->
+      <!--                    xmlns="http://www.w3.org/2000/svg"-->
+      <!--                  >-->
+      <!--                    <g filter="url(#filter0_d_0_1)">-->
+      <!--                      <rect x="9" y="5" width="60" height="60" fill="white" />-->
+      <!--                    </g>-->
+      <!--                    <path-->
+      <!--                      d="M46.5 23.75C45.5054 23.75 44.5516 24.1451 43.8483 24.8483C43.1451 25.5516 42.75 26.5054 42.75 27.5V42.5C42.75 43.4946 43.1451 44.4484 43.8483 45.1517C44.5516 45.8549 45.5054 46.25 46.5 46.25C47.4946 46.25 48.4484 45.8549 49.1517 45.1517C49.8549 44.4484 50.25 43.4946 50.25 42.5C50.25 41.5054 49.8549 40.5516 49.1517 39.8483C48.4484 39.1451 47.4946 38.75 46.5 38.75H31.5C30.5054 38.75 29.5516 39.1451 28.8483 39.8483C28.1451 40.5516 27.75 41.5054 27.75 42.5C27.75 43.4946 28.1451 44.4484 28.8483 45.1517C29.5516 45.8549 30.5054 46.25 31.5 46.25C32.4946 46.25 33.4484 45.8549 34.1517 45.1517C34.8549 44.4484 35.25 43.4946 35.25 42.5V27.5C35.25 26.5054 34.8549 25.5516 34.1517 24.8483C33.4484 24.1451 32.4946 23.75 31.5 23.75C30.5054 23.75 29.5516 24.1451 28.8483 24.8483C28.1451 25.5516 27.75 26.5054 27.75 27.5C27.75 28.4946 28.1451 29.4484 28.8483 30.1517C29.5516 30.8549 30.5054 31.25 31.5 31.25H46.5C47.4946 31.25 48.4484 30.8549 49.1517 30.1517C49.8549 29.4484 50.25 28.4946 50.25 27.5C50.25 26.5054 49.8549 25.5516 49.1517 24.8483C48.4484 24.1451 47.4946 23.75 46.5 23.75Z"-->
+      <!--                      stroke="#54BD95"-->
+      <!--                      stroke-width="2"-->
+      <!--                      stroke-linecap="round"-->
+      <!--                      stroke-linejoin="round"-->
+      <!--                    />-->
+      <!--                    <defs>-->
+      <!--                      <filter-->
+      <!--                        id="filter0_d_0_1"-->
+      <!--                        x="0"-->
+      <!--                        y="0"-->
+      <!--                        width="78"-->
+      <!--                        height="78"-->
+      <!--                        filterUnits="userSpaceOnUse"-->
+      <!--                        color-interpolation-filters="sRGB"-->
+      <!--                      >-->
+      <!--                        <feFlood-->
+      <!--                          flood-opacity="0"-->
+      <!--                          result="BackgroundImageFix"-->
+      <!--                        />-->
+      <!--                        <feColorMatrix-->
+      <!--                          in="SourceAlpha"-->
+      <!--                          type="matrix"-->
+      <!--                          values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"-->
+      <!--                          result="hardAlpha"-->
+      <!--                        />-->
+      <!--                        <feOffset dy="4" />-->
+      <!--                        <feGaussianBlur stdDeviation="4.5" />-->
+      <!--                        <feComposite in2="hardAlpha" operator="out" />-->
+      <!--                        <feColorMatrix-->
+      <!--                          type="matrix"-->
+      <!--                          values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.05 0"-->
+      <!--                        />-->
+      <!--                        <feBlend-->
+      <!--                          mode="normal"-->
+      <!--                          in2="BackgroundImageFix"-->
+      <!--                          result="effect1_dropShadow_0_1"-->
+      <!--                        />-->
+      <!--                        <feBlend-->
+      <!--                          mode="normal"-->
+      <!--                          in="SourceGraphic"-->
+      <!--                          in2="effect1_dropShadow_0_1"-->
+      <!--                          result="shape"-->
+      <!--                        />-->
+      <!--                      </filter>-->
+      <!--                    </defs>-->
+      <!--                  </svg>-->
+      <!--                </div>-->
+      <!--                <div>-->
+      <!--                  <h5>Engagement</h5>-->
+      <!--                  <p class="text-muted">-->
+      <!--                    Quiuckly navigate you anda engage with your adience-->
+      <!--                  </p>-->
+      <!--                </div>-->
+      <!--              </div>-->
+      <!--            </div>-->
+      <!--          </b-col>-->
+      <!--        </b-row>-->
+      <!--      </b-container>-->
     </section>
     <section>
       <b-container class="pt-5 mt-5">
         <b-row>
           <b-col cols="12" md="4" lg="4" sm="12">
-            <h2>Наши решения </h2>
+            <h2
+            >Наши решения </h2>
           </b-col>
           <b-col
             cols="12"
@@ -363,7 +365,7 @@
             sm="12"
             class="d-flex align-items-center"
           >
-            <p class="text-muted">
+            <p class="text-muted" id="solutions">
               Наши решения улучшают качество жизни и помогают сохранять время жителям
             </p>
           </b-col>
@@ -374,12 +376,15 @@
             sm="12"
             class="d-flex align-items-center"
           >
-            <a href=""><b-button
-              class="rounded-lg ml-lg-auto text-white"
-              variant="primary"
-              size="lg"
-            >Начнем</b-button
-            ></a>
+            <a href="">
+              <b-button
+                class="rounded-lg ml-lg-auto text-white"
+                variant="primary"
+                size="lg"
+              >Начнем
+              </b-button
+              >
+            </a>
 
           </b-col>
         </b-row>
@@ -389,13 +394,14 @@
               <b-img
                 alt="feature"
                 class="img-fluid img-feature"
-                :src="require(`~/assets/img/features/collboration_cloud.png`)"
+                :src="require(`~/assets/img/light.png`)"
               >
               </b-img>
               <b-card-text class="pt-2">
                 <h5>Динамический расчет времени светофора</h5>
                 <p class="text-muted">
-                Анализирую фотографии с камер , мы анализируем загруженность на перекрестках и в зависимости от количества машин с каждой стороны устанавливаем время светофора
+                  Анализирую фотографии с камер , мы анализируем загруженность на перекрестках и в зависимости от
+                  количества машин с каждой стороны устанавливаем время светофора
                 </p>
               </b-card-text>
             </b-card>
@@ -405,12 +411,12 @@
               <b-img
                 alt="feature"
                 class="img-fluid img-feature"
-                :src="require(`~/assets/img/features/cloud_storage.png`)"
+                :src="require(`~/assets/img/bus.png`)"
               ></b-img>
               <b-card-text class="pt-2">
                 <h5>Загруженность общественного транспорта</h5>
                 <p class="text-muted">
-                 Анализирую с помощью computer vision количество людей в автобусе , показываем гражданам загруженность
+                  Анализирую с помощью computer vision количество людей в автобусе , показываем гражданам загруженность
 
                 </p>
               </b-card-text>
@@ -421,7 +427,7 @@
               <b-img
                 alt="feature"
                 class="img-fluid img-feature"
-                :src="require(`~/assets/img/features/daily_analytics.png`)"
+                :src="require(`~/assets/img/litter.png`)"
               >
               </b-img>
               <b-card-text class="pt-2">
@@ -435,13 +441,65 @@
         </b-row>
       </b-container>
     </section>
+    <section>
+      <b-container class="pt-5 mt-5">
+        <b-row>
+          <b-col cols="12" md="4" lg="4" sm="12">
+            <h2 id="about">
+              Основатели </h2>
+          </b-col>
+          <b-col
+            cols="12"
+            md="5"
+            lg="5"
+            sm="12"
+            class="d-flex align-items-center"
+          >
+          </b-col>
+        </b-row>
+        <b-row class="mt-5 p-lg-5">
+          <b-col cols="12" lg="4" md="4" sm="4">
+            <b-card class="rounded-lg border-0 card-feature">
+              <b-img
+                alt="feature"
+                class="img-fluid img-feature"
+                :src="require(`~/assets/img/nurbek.jpeg`)"
+              >
+              </b-img>
+              <b-card-text class="pt-2">
+                <h5>Нурбек Болат</h5>
+                <p class="text-muted">
+                  Python AI and Ml разработчик , python backend developer
+                </p>
+              </b-card-text>
+            </b-card>
+          </b-col>
+          <b-col cols="12" lg="4" md="4" sm="4">
+            <b-card class="rounded-lg border-0 card-feature">
+              <b-img
+                alt="feature"
+                class="img-fluid img-feature"
+                :src="require(`~/assets/img/akhan.jpg`)"
+              ></b-img>
+              <b-card-text class="pt-2">
+                <h5>Искак Ахан</h5>
+                <p class="text-muted">
+                  AI and ML энтузиаст , мидл node.js developer
+                </p>
+              </b-card-text>
+            </b-card>
+          </b-col>
+        </b-row>
+      </b-container>
+    </section>
+
 <!--    <div class="bg-section-product">-->
 <!--      <section>-->
 <!--        <b-container class="pt-5 mt-5">-->
 <!--          <b-row>-->
 <!--            <b-col lg="6" md="6" sm="12">-->
 <!--              <h2>-->
-<!--                What benefit will <br class="d-none d-lg-block" />-->
+<!--                What benefit will <br class="d-none d-lg-block"/>-->
 <!--                you get-->
 <!--              </h2>-->
 <!--              <div class="d-flex flex-column mt-5">-->
@@ -546,7 +604,7 @@
 <!--        <b-container class="mt-5">-->
 <!--          <div class="d-flex flex-column">-->
 <!--            <h2 class="mx-auto">-->
-<!--              Choose Plan <br />-->
+<!--              Choose Plan <br/>-->
 <!--              Thats's Right For Your-->
 <!--            </h2>-->
 <!--            <p class="text-muted mx-auto text-700 my-4">-->
@@ -561,7 +619,8 @@
 <!--                  variant="primary"-->
 <!--                  size="lg"-->
 <!--                  class="text-white rounded-lg"-->
-<!--                  >Bil Yearly</b-button-->
+<!--                >Bil Yearly-->
+<!--                </b-button-->
 <!--                >-->
 <!--              </div>-->
 <!--            </b-col>-->
@@ -668,7 +727,8 @@
 <!--                      <span class="ml-2">New income apps</span>-->
 <!--                    </div>-->
 <!--                    <b-button block class="rounded-lg btn-white shadow-sm"-->
-<!--                      >Signup for free</b-button-->
+<!--                    >Signup for free-->
+<!--                    </b-button-->
 <!--                    >-->
 <!--                  </div>-->
 <!--                </b-card>-->
@@ -684,7 +744,7 @@
 <!--                    >-->
 <!--                      <h4>Pro</h4>-->
 <!--                      <p>-->
-<!--                        Experientce the power<br />-->
+<!--                        Experientce the power<br/>-->
 <!--                        of invinity posibilities-->
 <!--                      </p>-->
 <!--                      <span class="d-inline">-->
@@ -791,7 +851,8 @@
 <!--                        block-->
 <!--                        variant="primary text-white"-->
 <!--                        class="rounded-lg"-->
-<!--                        >Go to pro</b-button-->
+<!--                      >Go to pro-->
+<!--                      </b-button-->
 <!--                      >-->
 <!--                    </div>-->
 <!--                  </div>-->
@@ -900,7 +961,8 @@
 <!--                      <span class="ml-2">New income apps</span>-->
 <!--                    </div>-->
 <!--                    <b-button block class="rounded-lg btn-white shadow-sm"-->
-<!--                      >Goto Business</b-button-->
+<!--                    >Goto Business-->
+<!--                    </b-button-->
 <!--                    >-->
 <!--                  </div>-->
 <!--                </b-card>-->
@@ -929,8 +991,8 @@
 <!--                  fill="none"-->
 <!--                  xmlns="http://www.w3.org/2000/svg"-->
 <!--                >-->
-<!--                  <path d="M11.5 0H21.5L14.5 38H0L11.5 0Z" fill="#D9D9D9" />-->
-<!--                  <path d="M35 0H45L38 38H23.5L35 0Z" fill="#D9D9D9" />-->
+<!--                  <path d="M11.5 0H21.5L14.5 38H0L11.5 0Z" fill="#D9D9D9"/>-->
+<!--                  <path d="M35 0H45L38 38H23.5L35 0Z" fill="#D9D9D9"/>-->
 <!--                </svg>-->
 <!--              </div>-->
 <!--              <p>-->
@@ -962,7 +1024,7 @@
 <!--                  :src="require(`~/assets/img/avatar/avatar_04.png`)"-->
 <!--                />-->
 <!--                <b-avatar size="66px" class="mx-2">-->
-<!--                  <b-icon-play-fill scale="2" />-->
+<!--                  <b-icon-play-fill scale="2"/>-->
 <!--                </b-avatar>-->
 <!--              </div>-->
 <!--            </div>-->
@@ -988,22 +1050,23 @@
 <!--                <h3 class="text-center">Get Started</h3>-->
 <!--                <div>-->
 <!--                  <label>Email</label>-->
-<!--                  <b-form-input placeholder="Enter your email" />-->
+<!--                  <b-form-input placeholder="Enter your email"/>-->
 <!--                </div>-->
 <!--                <div class="my-2">-->
 <!--                  <label>Message</label>-->
-<!--                  <b-form-textarea rows="2" placeholder="What are you say!" />-->
+<!--                  <b-form-textarea rows="2" placeholder="What are you say!"/>-->
 <!--                </div>-->
 <!--                <div class="my-2">-->
 <!--                  <b-button block variant="primary" class="text-white"-->
-<!--                    >Request Demo</b-button-->
+<!--                  >Request Demo-->
+<!--                  </b-button-->
 <!--                  >-->
 <!--                </div>-->
 <!--                <div class="clearfix">-->
 <!--                  <span class="float-right"-->
-<!--                    >or-->
+<!--                  >or-->
 <!--                    <b-link href="#" class="text-white"-->
-<!--                      >Start Free Trial</b-link-->
+<!--                    >Start Free Trial</b-link-->
 <!--                    >-->
 <!--                  </span>-->
 <!--                </div>-->
@@ -1043,7 +1106,7 @@
 <!--                >-->
 <!--                </b-form-input>-->
 <!--                <b-avatar class="text-white ml-2" variant="primary">-->
-<!--                  <b-icon-arrow-right scale="1.6" />-->
+<!--                  <b-icon-arrow-right scale="1.6"/>-->
 <!--                </b-avatar>-->
 <!--              </div>-->
 <!--            </div>-->
@@ -1116,12 +1179,14 @@
 <!--              >-->
 <!--                <b-icon-github-->
 <!--                  class="mr-1"-->
-<!--                />https://github.com/silvesterwali/saas-landing-page-->
+<!--                />-->
+<!--                https://github.com/silvesterwali/saas-landing-page-->
 <!--              </b-link>-->
 <!--            </div>-->
 <!--            <div class="mx-auto">-->
 <!--              <b-link class="text-white" href="https://uikit.to/saas-landing-pages/">-->
-<!--                <b-icon-globe  class="mr-1"/>https://uikit.to/saas-landing-pages/-->
+<!--                <b-icon-globe class="mr-1"/>-->
+<!--                https://uikit.to/saas-landing-pages/-->
 <!--              </b-link>-->
 <!--            </div>-->
 <!--          </b-col>-->
@@ -1132,9 +1197,8 @@
 </template>
 
 <script>
-import {
+import {} from 'bootstrap-vue'
 
-} from 'bootstrap-vue'
 export default {
   name: 'IndexPage',
   components: {
