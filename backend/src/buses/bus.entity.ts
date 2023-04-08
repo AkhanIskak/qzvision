@@ -9,7 +9,7 @@ export class BusEntity{
     //id of particular bus indifferent to its route number
     //because there are multiple buses with same routeNumbers
     @Column()
-    specificBusId
+    specificBusId:number
     @Column()
     passengerAmount:number;
 }
