@@ -1,6 +1,6 @@
 ''' Configuration file for bus cameras server '''
 from configparser import ConfigParser
-from typing import List
+from typing import List, Tuple
 from enum import Enum
 from os import path
 
@@ -55,3 +55,9 @@ class Status(Enum):
     WAITING: str = 'Waiting'
     DETECTING: str = 'Detecting'
     TRACKING: str = 'Tracking'
+
+
+class Colors(Enum):
+    BLACK: Tuple[int] = (0, 0, 0)
+    GREEN: Tuple[int] = (0, 255, 0)
+    WHITE: Tuple[int] = (255, 255, 255)
