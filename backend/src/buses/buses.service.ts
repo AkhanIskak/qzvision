@@ -11,8 +11,28 @@ export class BusesService {
     ) {
     }
 
-    listBuses() {
-        return this.busesRepo.find();
+    async listBuses() {
+        let buses = await this.busesRepo.find();
+        let groupedByRoute = {};
+        buses.map(bus => {
+            let routeIds = Object.keys(groupedByRoute);
+            if (routeIds.length > 0 && routeIds.find(r => Number(r) === bus.routeId)) {
+                groupedByRoute[String(bus.routeId)].push(bus);
+            } else {
+                groupedByRoute[String(bus.routeId)] = [bus];
+            }
+        })
+        return groupedByRoute;
+
     }
 
+    async updateBus(bus) {
+        const foundBus = await this.busesRepo.findOne({where: {specificBusId: bus.specificBusId}})
+        if (!foundBus) {
+            return this.busesRepo.save(bus);
+        }
+        foundBus.passengerAmount = foundBus.passengerAmount + bus.passengerAmount;
+        return this.busesRepo.save(foundBus);
+
+    }
 }
