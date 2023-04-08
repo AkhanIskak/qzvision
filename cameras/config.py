@@ -1,10 +1,17 @@
 ''' Configuration file for bus cameras server '''
 from configparser import ConfigParser
 from enum import Enum
+from os import path
 
 
 config = ConfigParser()
 config.read('settings.ini')
+
+
+class Directory(Enum):
+    ''' Class representing a directory configuration '''
+    BASE = path.dirname(__file__)
+    LOGS = path.join(BASE, 'logs')
 
 
 class Bus(Enum):
@@ -21,5 +28,6 @@ class Server(Enum):
 
 class Logs(Enum):
     ''' Class representing logs configuration '''
-    FILENAME: str = config.get('LOGS', 'FILENAME')
     LEVEL: int = int(config.get('LOGS', 'LEVEL'))
+    FILE: str = path.join(
+        Directory.LOGS.value, config.get('LOGS', 'FILENAME'))
