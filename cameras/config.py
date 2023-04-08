@@ -38,3 +38,9 @@ class Vision(Enum):
     ''' Class representing vision algorithm's configuration '''
     MODEL: str = path.join(Directory.DATA.value, config.get('DATA', 'MODEL'))
     INFO: str = path.join(Directory.DATA.value, config.get('DATA', 'INFO'))
+
+
+class Status(Enum):
+    WAITING: str = 'Waiting'
+    DETECTING: str = 'Detecting'
+    TRACKING: str = 'Tracking'
