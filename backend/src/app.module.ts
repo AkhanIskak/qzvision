@@ -10,9 +10,9 @@ console.log(path.join(__dirname, '..', 'static'))
 console.log(__dirname)
 
 @Module({
-    imports: [TypeOrmModule.forRoot({
+    imports: [ TypeOrmModule.forRoot({
         type: 'postgres',
-        host: 'db',
+        host: 'localhost',
         port: 5432,
         username: 'postgres',
         password: 'ahan2004',
@@ -22,7 +22,6 @@ console.log(__dirname)
     }),
         ServeStaticModule.forRoot({
             rootPath: path.join(__dirname, '..', 'static'),
-            serveRoot: '/',
             exclude: ['/api*'],
         }), BusesModule],
     controllers: [AppController],
