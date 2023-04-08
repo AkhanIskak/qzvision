@@ -260,6 +260,6 @@ class Camera:
 
 
 if __name__ == '__main__':
-    # camera = Camera(video='./video/bus-doors.mp4')
-    camera = Camera(video='./video/street-cam.mp4')
+    camera = Camera(video=config.Vision.VIDEO.value,
+                    device=config.Vision.DEVICE.value)
     camera.activate()
