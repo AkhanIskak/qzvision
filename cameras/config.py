@@ -66,3 +66,6 @@ class Colors(Enum):
 class Graphics(Enum):
     LINE_COLOR = Colors.BLACK.value
     LINE_THICKNESS = int(config.get('GRAPHICS', 'LINE_THICKNESS'))
+    LINE_TEXT = config.get('GRAPHICS', 'LINE_TEXT')
+
+    TITLE = config.get('GRAPHICS', 'TITLE')
