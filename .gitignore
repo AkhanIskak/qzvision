@@ -93,3 +93,6 @@ sw.*
 
 # Pycache
 __pycache__
+
+# Video
+cameras/video/*.mp4
