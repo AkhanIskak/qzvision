@@ -35,12 +35,12 @@ class Camera:
     circle_thickness: int = -1
 
     def __init__(self, device: int = None, video: str = None):
-        if device:
-            self.capture = cv2.VideoCapture(device)
-            self.video = False
-        elif video:
+        if video:
             self.capture = cv2.VideoCapture(video)
             self.video = True
+        elif device:
+            self.capture = cv2.VideoCapture(device)
+            self.video = False
         else:
             raise ValueError('Video capture source was not provided')
 
