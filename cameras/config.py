@@ -18,7 +18,8 @@ class Directory(Enum):
 
 class Bus(Enum):
     ''' Class representing a bus configuration '''
-    ID: str = config.get('BUS', 'ID')
+    ID: int = int(config.get('BUS', 'ID'))
+    ROUTE: int = int(config.get('BUS', 'ROUTE'))
 
 
 class Server(Enum):
