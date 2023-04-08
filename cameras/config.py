@@ -27,6 +27,8 @@ class Server(Enum):
     PORT: int = int(config.get('SERVER', 'PORT'))
     DEBUG: bool = config.get('SERVER', 'DEBUG') == 'True'
 
+    URL: str = config.get('SERVER', 'URL')
+
 
 class Logs(Enum):
     ''' Class representing logs configuration '''
