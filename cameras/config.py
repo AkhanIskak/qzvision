@@ -52,20 +52,23 @@ class Vision(Enum):
 
 
 class Status(Enum):
+    ''' Class representing status information '''
     WAITING: str = 'Waiting'
     DETECTING: str = 'Detecting'
     TRACKING: str = 'Tracking'
 
 
 class Colors(Enum):
+    ''' Class representing color schemes'''
     BLACK: Tuple[int] = (0, 0, 0)
     GREEN: Tuple[int] = (0, 255, 0)
     WHITE: Tuple[int] = (255, 255, 255)
 
 
 class Graphics(Enum):
-    LINE_COLOR = Colors.BLACK.value
-    LINE_THICKNESS = int(config.get('GRAPHICS', 'LINE_THICKNESS'))
-    LINE_TEXT = config.get('GRAPHICS', 'LINE_TEXT')
+    ''' Class representing graphics configuration '''
+    LINE_COLOR: Tuple[int] = Colors.BLACK.value
+    LINE_THICKNESS: float = float(config.get('GRAPHICS', 'LINE_THICKNESS'))
+    LINE_TEXT: str = config.get('GRAPHICS', 'LINE_TEXT')
 
-    TITLE = config.get('GRAPHICS', 'TITLE')
+    TITLE: str = config.get('GRAPHICS', 'TITLE')
