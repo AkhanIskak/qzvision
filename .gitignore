@@ -90,3 +90,6 @@ sw.*
 
 # Vim swap files
 *.swp
+
+# Pycache
+__pycache__
