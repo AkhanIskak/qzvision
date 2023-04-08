@@ -12,7 +12,7 @@ class ProcessManager:
     def run(self) -> None:
         ''' Runs the process '''
         if not self.is_running:
-            self.process = subprocess.Popen(['python', self.script])
+            self.process = subprocess.Popen(['python3', self.script])
 
     def terminate(self) -> None:
         ''' Terminates the process '''
