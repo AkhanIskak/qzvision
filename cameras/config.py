@@ -10,3 +10,10 @@ config.read('settings.ini')
 class Bus(Enum):
     ''' Class representing a bus configuration '''
     ID: str = config.get('BUS', 'ID')
+
+
+class Server(Enum):
+    ''' Class representing a server configuration '''
+    HOST: str = config.get('SERVER', 'HOST')
+    PORT: int = int(config.get('SERVER', 'PORT'))
+    DEBUG: bool = config.get('SERVER', 'DEBUG') == 'True'
