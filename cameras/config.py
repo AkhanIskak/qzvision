@@ -1,5 +1,6 @@
 ''' Configuration file for bus cameras server '''
 from configparser import ConfigParser
+from typing import List
 from enum import Enum
 from os import path
 
@@ -43,6 +44,11 @@ class Vision(Enum):
     SKIP_FRAMES: int = int(config.get('VISION', 'SKIP-FRAMES'))
     SCALE_FACTOR: float = float(config.get('VISION', 'SCALE-FACTOR'))
     MEAN: float = float(config.get('VISION', 'MEAN'))
+
+    CLASSES: List[str] = ['background', 'aeroplane', 'bicycle', 'bird', 'boat',
+                          'bottle', 'bus', 'car', 'cat', 'chair', 'cow', 'diningtable',
+                          'dog', 'horse', 'motorbike', 'person', 'pottedplant', 'sheep',
+                          'sofa', 'train', 'tvmonitor']
 
 
 class Status(Enum):
