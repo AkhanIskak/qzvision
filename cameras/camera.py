@@ -35,10 +35,10 @@ class Camera:
     circle_thickness: int = -1
 
     def __init__(self, device: int = None, video: str = None):
-        if device is not None:
+        if device:
             self.capture = cv2.VideoCapture(device)
             self.video = False
-        elif video is not None:
+        elif video:
             self.capture = cv2.VideoCapture(video)
             self.video = True
         else:
@@ -257,3 +257,9 @@ class Camera:
     @property
     def center(self) -> Tuple[int]:
         return ((0, self.height // 2), (self.width, self.height // 2))
+
+
+if __name__ == '__main__':
+    # camera = Camera(video='./video/bus-doors.mp4')
+    camera = Camera(video='./video/street-cam.mp4')
+    camera.activate()
