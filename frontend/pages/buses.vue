@@ -17,7 +17,7 @@ export default {
   name: 'BusesPage',
 
   async asyncData() {
-    let response = await fetch('https://blizhe.kz/api/buses')
+    let response = await fetch('/api/buses')
     response = await response.json()
     console.log(response)
     return {
