@@ -53,6 +53,9 @@ class Vision(Enum):
                           'dog', 'horse', 'motorbike', 'person', 'pottedplant', 'sheep',
                           'sofa', 'train', 'tvmonitor']
 
+    DEVICE = int(config.get('VISION', 'DEVICE'))
+    VIDEO = config.get('VISION', 'VIDEO')
+
 
 class Status(Enum):
     ''' Class representing status information '''
