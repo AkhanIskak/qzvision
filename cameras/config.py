@@ -53,8 +53,9 @@ class Vision(Enum):
                           'dog', 'horse', 'motorbike', 'person', 'pottedplant', 'sheep',
                           'sofa', 'train', 'tvmonitor']
 
-    DEVICE = int(config.get('VISION', 'DEVICE'))
     VIDEO = config.get('VISION', 'VIDEO')
+    DEVICE = int(config.get('VISION', 'DEVICE')) if not config.get(
+        'VISION', 'DEVICE') else None
 
 
 class Status(Enum):
