@@ -39,6 +39,11 @@ class Vision(Enum):
     MODEL: str = path.join(Directory.DATA.value, config.get('DATA', 'MODEL'))
     INFO: str = path.join(Directory.DATA.value, config.get('DATA', 'INFO'))
 
+    CONFIDENCE: float = float(config.get('VISION', 'CONFIDENCE'))
+    SKIP_FRAMES: int = int(config.get('VISION', 'SKIP-FRAMES'))
+    SCALE_FACTOR: float = float(config.get('VISION', 'SCALE-FACTOR'))
+    MEAN: float = float(config.get('VISION', 'MEAN'))
+
 
 class Status(Enum):
     WAITING: str = 'Waiting'
