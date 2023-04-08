@@ -12,6 +12,7 @@ class Directory(Enum):
     ''' Class representing a directory configuration '''
     BASE = path.dirname(__file__)
     LOGS = path.join(BASE, 'logs')
+    DATA = path.join(BASE, 'data')
 
 
 class Bus(Enum):
@@ -31,3 +32,9 @@ class Logs(Enum):
     LEVEL: int = int(config.get('LOGS', 'LEVEL'))
     FILE: str = path.join(
         Directory.LOGS.value, config.get('LOGS', 'FILENAME'))
+
+
+class Vision(Enum):
+    ''' Class representing vision algorithm's configuration '''
+    MODEL: str = path.join(Directory.DATA.value, config.get('DATA', 'MODEL'))
+    INFO: str = path.join(Directory.DATA.value, config.get('DATA', 'INFO'))
