@@ -54,8 +54,7 @@ class Vision(Enum):
                           'sofa', 'train', 'tvmonitor']
 
     VIDEO = config.get('VISION', 'VIDEO')
-    DEVICE = int(config.get('VISION', 'DEVICE')) if not config.get(
-        'VISION', 'DEVICE') else None
+    DEVICE = int(config.get('VISION', 'DEVICE'))
 
 
 class Status(Enum):
