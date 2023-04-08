@@ -15,13 +15,13 @@ services:
       POSTGRES_DB: mydatabase
 
   db:
-    image: postgres:latest
+    image: postgres:14
     container_name: qazvision-postgres
     restart: always
     environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: ahan2004
-      POSTGRES_DB: qazvision
+      POSTGRES_DB: main
     volumes:
       - ./data:/var/lib/postgresql/data
     ports:
