@@ -18,13 +18,16 @@
 
 export default {
   name: 'BusesPage',
-
-  async asyncData() {
+  async mounted() {
     let response = await fetch(window.location.origin + '/api/buses')
     response = await response.json()
     console.log(response)
+    this.buses=response;
+  },
+  async data() {
+
     return {
-      buses: response
+      buses: []
     }
   }
 }
