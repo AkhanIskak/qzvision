@@ -22,7 +22,6 @@ console.log(__dirname)
     }),
         ServeStaticModule.forRoot({
             rootPath: path.join(__dirname, '..', 'static'),
-            serveRoot: '/',
             exclude: ['/api*'],
         }), BusesModule],
     controllers: [AppController],
