@@ -376,7 +376,7 @@
             sm="12"
             class="d-flex align-items-center"
           >
-            <a href="">
+            <a href="/buses">
               <b-button
                 class="rounded-lg ml-lg-auto text-white"
                 variant="primary"
