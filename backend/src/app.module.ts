@@ -12,7 +12,7 @@ console.log(__dirname)
 @Module({
     imports: [ TypeOrmModule.forRoot({
         type: 'postgres',
-        host: 'localhost',
+        host: 'db',
         port: 5432,
         username: 'postgres',
         password: 'ahan2004',
