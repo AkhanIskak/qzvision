@@ -1,7 +1,7 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Saas Landing Page',
+    title: 'QazVision',
     htmlAttrs: {
       lang: 'en',
     },
@@ -66,7 +66,7 @@ export default {
       'nuxt-social-meta',
       {
         url: '',
-        title: 'Saas Landing Page',
+        title: 'QazVision',
         site_name: 'Sass Landing Page',
         description:
           'Saas landing pages design is very important in order to convert visitors into leads or customers [https://uikit.to/saas-landing-pages/]',
