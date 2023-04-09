@@ -1,6 +1,6 @@
 <template>
   <container>
-    <h2 v-if="buses.length>0">Загруженность автобусов</h2>
+    <h2 v-if="this.buses.length>0">Загруженность автобусов</h2>
     <hr>
     <ul v-for="route in Object.keys(buses)" :key="route">
       <h5> Номер автобуса:{{ route }}</h5>
@@ -24,7 +24,7 @@ export default {
     console.log(response)
     this.buses=response;
   },
-  async data() {
+   data() {
 
     return {
       buses: []
