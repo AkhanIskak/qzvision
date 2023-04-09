@@ -16,7 +16,7 @@
 export default {
   name: 'BusesPage',
   async mounted() {
-      let response = await fetch('api/buses')
+      let response = await fetch(window.location.origin+'/api/buses')
       response = await response.json()
       console.log(response)
   }
